@@ -1,3 +1,5 @@
+import pytest
+
 def reverseWords(string):
     words = string.split()
     reversed_words = [word[::-1] for word in words]
@@ -18,3 +20,14 @@ else:
 
 print("Palindrome:", palindrome_string)
 
+def testReversePalindrome():
+    assert reverseWords("hello world") == "olleh dlrow"
+    assert reverseWords("python is awesome") == "nohtyp si emosewa"
+    assert reverseWords("") == ""
+
+def testIsPalindrome():
+    assert isPalindrome("madam") == True
+    assert isPalindrome("hello") == False
+    assert isPalindrome("") == True
+
+pytest.main()
