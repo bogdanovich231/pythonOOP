@@ -1,0 +1,99 @@
+What is JavaScript?
+What is Node.js: A Comprehensive Guide
+Welcome to the MDN beginner's JavaScript course! In this article we will look at JavaScript from a high level, answering questions such as "What is it?" and "What can you do with it?", and making sure you are comfortable with JavaScript's purpose.
+If we talk about any application then the part with which the user is interacting is basically the frontend of our website whereas there are many things which happen in the background or in the backend of our website. Basically there are three parts of any application, one is Frontend with which the users are interacting, then comes to the backend server and backend database. For backend servers we can use NodeJS, Java, Python, etc. and for backend databases we use relational or non-relational databases.
+
+
+A high-level definition
+Now let us first know what NodeJS is.
+JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.
+
+
+Whenever a client requests something from the client side of the application what happens is , the request is first sent to the server and then in that server some processing or calculations goes on for the validation of the client side request and after doing all such validation a response is sent to the client side. Basically for doing all such calculations and processing , this NodeJs framework of JavaScript is used.
+HTML is the markup language that we use to structure and give meaning to our web content, for example defining paragraphs, headings, and data tables, or embedding images and videos in the page.
+
+CSS is a language of style rules that we use to apply styling to our HTML content, for example setting background colors and fonts, and laying out our content in multiple columns.
+For running our web applications outside the client’s browser , NodeJS is basically used as an open-source and cross platform JavaScript runtime environment.For running the server side applications we use this.For building the I/O intensive applications like video streaming sites ,online chatting applications and many other applications , it is used. Many established tech giant companies and newly created start-ups are using NodeJs framework in their company.
+JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
+
+The three layers build on top of one another nicely. Let's take a simple text label as an example. We can mark it up using HTML to give it structure and purpose:
+In 2009, NodeJs was developed by a guy called Ryan Dahla and the current version of NodeJs is v16.9.0.
+
+
+<p>Player 1: Chris</p>
+What is Node.js?
+Then we can add some CSS into the mix to get it looking nice:
+Node.js is an open-source, cross-platform JavaScript runtime environment and library for running web applications outside the client's browser. Ryan Dahl developed it in 2009, and its latest iteration, version 15.14, was released in April 2021. Developers use Node.js to create server-side web applications, and it is perfect for data-intensive applications since it uses an asynchronous, event-driven model.
+p {
+
+font-family: "helvetica neue", helvetica, sans-serif;
+Now that we know what is Node, let's look at why it is so prevalent in web development
+letter-spacing: 1px;
+
+text-transform: uppercase;
+Why Do We Use NodeJs?
+text-align: center;
+There are many reasons for which we prefer using NodeJs for the server side of our application, some of them are discussed in the following:
+border: 2px solid rgb(0 0 200 / 0.6);
+
+background: rgb(0 0 200 / 0.6);
+NodeJs is built on Google Chrome’s V8 engine, and for this reason its execution time is very fast and it runs very quickly.
+color: rgb(255 255 255 / 1);
+There are more than 50,000 bundles available in the Node Package Manager and for that reason developers can import any of the packages any time according to their needed functionality for which a lot of time is saved.
+box-shadow: 1px 1px 2px rgb(0 0 200 / 0.4);
+As NodeJs do not need to wait for an API to return data , so for building real time and data intensive web applications, it is very useful. It is totally asynchronous in nature that means it is totally non-blocking.
+border-radius: 10px;
+The loading time for an audio or video is reduced by NodeJs because there is better synchronization of the code between the client and server for having the same code base.
+padding: 3px 10px;
+As NodeJs is open-source and it is nothing but a JavaScript framework , so for the developers who are already used to JavaScript, for them starting developing their projects with NodeJs is very easy.
+display: inline-block;
+Features of NodeJs
+cursor: pointer;
+Now let us discuss on some of the features of NodeJs:
+}
+
+
+Asynchronous in Nature and Event driven: The servers made with the NodeJs never waits for the from an API. Without waiting for the data from the API, it directly moves to the next API. So all the APIs of NodeJS are totally non-blocking in nature. In order to receive and track all the responses of the previous API requests, it follows an event driven mechanism. Hence we can say that all the NodeJs API are non-blocking in nature.
+And finally, we can add some JavaScript to implement dynamic behavior:
+Single Threaded Architecture: With event looping, a single threaded architecture is followed by NodeJs and for this architecture makes NodeJs more scalable. In contrast to other servers, limited threads are created by them for processing the requests. Whereas for the event driven mechanism, the NodeJS servers reply in a non-blocking or an asynchronous manner and for this reason NodeJS becomes more scalable. If we compare NodeJs with other traditional servers like Apache HTTP servers, then we can say NodeJs handles a larger number of requests. A single threaded program is followed by NodeJS and this allows NodeJs to process a huge amount of requests.
+
+Scalable: Nowadays, scalable software is demanded by most of the companies. One of the most pressing concerns in Software Development is addressed by NodeJs and that is scalability. Concurrent requests can be handled very efficiently using NodeJs. A cluster module is used by NodeJs for managing the load balancing for all the active CPU cores. The most appealing feature of NodeJs is that it can partition the applications horizontally and this partition procedure is mainly achieved by it due to the use of child processes. Using this feature, the distinct app versions are provided to the different target audiences and also for customization it allows them for catering to the client preferences.
+const para = document.querySelector("p");
+Quick Execution time for code: V8 JavaScript runtime motor is used by NodeJs and this is also used by Google chrome. A wrapper is provided for the JavaScript by the hub and for that reason the runtime motor becomes faster and for this reason inside NodeJs, the preposition process of the requests also become faster.
+
+Compatibility on the cross platforms: Different types of systems like Windows, UNIX, LINUX, MacOS and other mobile devices can use NodeJs. For generating a self-sufficient execution, it can be paired with any appropriate package.
+para.addEventListener("click", updateName);
+Uses JavaScript: From an engineer's perspective, it is a very important aspect of NodeJs that this framework uses JavaScript Most of the developers are familiar with JavaScript, so for them it becomes very easier to grab NodeJs.
+
+Fast Data Streaming: The processing time of the data that have been transmitted to different streams takes a long time. Whereas for processing the data, NodeJs takes a very short amount of time and it does it at a very fast rate. NodeJs saves a lot of time because the files are processed and uploaded simultaneously by NodeJs. So as a result, the overall speed of data and video streaming is improved by NodeJs.
+function updateName() {
+No Buffering : The data is never buffered in NodeJs application.
+const name = prompt("Enter a new name");
+
+para.textContent = `Player 1: ${name}`;
+Node.js Architecture
+}
+Now that we established what is Node, let’s dig into its architecture. Node.js operates on a single-thread, allowing it to handle thousands of simultaneous event loops. Here’s a diagram, provided by Sinform.com, that best illustrates Node.js architecture.
+
+Try clicking on this last version of the text label to see what happens (note also that you can find this demo on GitHub — see the source code, or run it live)!
+
+JavaScript can do a lot more than that — let's explore what in more detail.
+
+So what can it really do?
+The core client-side JavaScript language consists of some common programming features that allow you to do things like:
+
+Store useful values inside variables. In the above example for instance, we ask for a new name to be entered then store that name in a variable called name.
+Operations on pieces of text (known as "strings" in programming). In the above example we take the string "Player 1: " and join it to the name variable to create the complete text label, e.g. "Player 1: Chris".
+Running code in response to certain events occurring on a web page. We used a click event in our example above to detect when the label is clicked and then run the code that updates the text label.
+And much more!
+What is even more exciting however is the functionality built on top of the client-side JavaScript language. So-called Application Programming Interfaces (APIs) provide you with extra superpowers to use in your JavaScript code.
+
+APIs are ready-made sets of code building blocks that allow a developer to implement programs that would otherwise be hard or impossible to implement. They do the same thing for programming that ready-made furniture kits do for home building — it is much easier to take ready-cut panels and screw them together to make a bookshelf than it is to work out the design yourself, go and find the correct wood, cut all the panels to the right size and shape, find the correct-sized screws, and then put them together to make a bookshelf.
+They generally fall into two categories.
+
+Browser APIs are built into your web browser, and are able to expose data from the surrounding computer environment, or do useful complex things. For example:
+
+The DOM (Document Object Model) API allows you to manipulate HTML and CSS, creating, removing and changing HTML, dynamically applying new styles to your page, etc. Every time you see a popup window appear on a page, or some new content displayed (as we saw above in our simple demo) for example, that's the DOM in action.
+The Geolocation API retrieves geographical information. This is how Google Maps is able to find your location and plot it on a map.
+The Canvas and WebGL APIs allow you to create animated 2D and 3D graphics. People are doing some amazing things using these web technologies — see Chrome Experiments and webglsamples.
+Audio and Video APIs like HTMLMediaElement and WebRTC allow you to do really interesting things with multimedia, such as play audio and video right in a web page, or grab video from your web camera and display it on someone else's computer (try our simple Snapshot demo to get the idea).
