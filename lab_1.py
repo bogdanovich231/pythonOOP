@@ -5,3 +5,8 @@ with open("pantadeus.txt", "w") as file:
 with open("pantadeus.txt", "r") as file:
     content = file.read()
     print(content)
+
+# Suggest a solution to the text readability problems
+with open("pantadeus.txt", "r") as file:
+    content = file.read().strip().split()
+    print(content)
