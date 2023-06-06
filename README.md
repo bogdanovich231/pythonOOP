@@ -6,9 +6,8 @@
 - Write a program representing an object-oriented system that evaluates products from the Beer class. Propose individual fields, e.g., categories, percentage concentration, price, opinion space. Propose the ability to sort by ratings and names.
 Propose a Store class. What methods and fields will you propose that the Beer class could use the Store class?
 - Write a program that creates a class Citizen with fields: first name, last name, street_number, postal_code, city. Write a constructor and a method that loads the data, and a function that displays as a business card and prints it to a file, such as:
-----------------------
 Jan Kowalski
 ul. Rakowiecka 20
 00-001 Warszawa
-----------------------
+
 - Write a program to objectively represent a deck of cards(52). Define methods to compare cards, sort, display, add, remove and move them. Extending the task, propose an implementation of a selected card game.
