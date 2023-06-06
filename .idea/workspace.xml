@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e3d2744-a1bb-46bd-bac1-cd909c43d132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686069463341</updated>
-      <workItem from="1686069468238" duration="2522000" />
+      <workItem from="1686069468238" duration="2893000" />
     </task>
     <servers />
   </component>
